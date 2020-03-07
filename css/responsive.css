@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media (max-width: 767px){
+
+.minsprest { font-size: 11px;}
+.spinximg img {/* width: 118%; */}
+.text {width: 66%;}
+.evePara {    width: 90%;}
+.evePara p { font-size: 12px;}
+.hevents h1 {  font-size: 17px;}
+.eventdbtb { margin: 19px auto 0;}
+.eventdbtb div#ideatebut { font-size: 10px;}
+div#ideatebut { font-size: 12px;    width: 45%;transform: translate(0, 0);margin: 3% auto 0;display: block;}
+span.poppsrlo {width: 100%;float: right;font-size: 11px;}
+.modal-title { font-size: 15px;}
+.evencon_box h3 {font-size: 16px;  font-weight: bold;}
+.eventdetail_wpr p { font-size: 14px;}
+.evencon_box ul li {font-size: 14px;}
+.evencon_box ol li {font-size: 14px;}
+.evencon_box h2 { font-size: 17px;}
+.pptable table{display:block; width:100%; float:left;}
+.pptable table tr{display:block; width:100%; float:left;     border: 1px solid #f1bd28; margin-bottom:10px;}
+.pptable table tr th{display:block; width:100%; float:left;}
+.pptable table tr td{display:block; width:100%; float:left; border:0px; border-bottom: 1px solid #f1bd28;}
+.pptable table tr td:nth-last-child(1){ border-bottom: 0px solid #f1bd28;}
+.about_text_wrp h3 {font-size: 17px;}
+.exhbi_image { margin: 10px 0 25px;}
+.mela_image { margin: 10px 0 25px;}
+.sponsorhead h4 { margin: 0 0 6px;font-size: 15px;}
+
+
+
+.topnav {  height: 69px; display:none !important;}
+.navlist li {  margin: 0 8px;}
+div#logo:before { border-width: 78px 0px 0px 28px;}
+div#logo:after {  border-width: 0px 0 78px 28px;}
+#logo { width: 113px;}
+.menuslhowbtn{display:block;}
+.rightsidemenu ul { background: #000; padding: 0; }
+.rightsidemenu ul li a {  color: #fff;}
+.rightsidemenu ul li:nth-child(1){border-top:1px solid #fff;}
+.rightsidemenu ul li{border-bottom:1px solid #fff; padding:2px 15px; border-left:1px solid #fff;}
+.rightsidemenu {  right: -148px; transition:all 0.5s ease-in-out;display: none;}
+.bnavlist li { font-size: 9px;}
+.bottomnav { transform: translate(31%,0);    display: none;}
+.topnav .navlist a { font-size: 8px;}
+.topnav ul {width: 38%;}
+#logo { left: 41%;}
+.ourtem_heding h2 {    font-size: 17px;    padding-bottom: 12px;}
+.about_text_wrp { padding: 0; font-size: 13px;}
+
+.icons {right: 0; padding-bottom: 0.5%; margin-right: 5px;  z-index: 5;width: 138px;   margin: 0;}
+.notificationwrp { left: 20px;}
+ul.bnavlist {  padding: 0;}
+.headernav_mobile{display:block;}
+.contentbox_pwr { top: 86PX;}
+.notif_headinf{    display: none;}
+.notifibtn h4 { margin: 10px 0;}
+.icons li { width: 15px;}
+.notificlist ul { width: 271px;}
+.notificlist ul li h4 { font-size: 16px;}
+.notificlist ul li p { font-size: 13px;}
+.notificlist ul li {   padding: 4px 0;}
+.notificlist ul { bottom: 34px;}
+
+.contact-info { padding: 25px 0;     min-height: auto;}
+.contact-info .title h3 { font-size: 18px;}
+.contact-info .contact-address li { font-size: 14px;}
+.contact_form h2 { font-size: 18px;}
+.requird_form_contect label{    font-size: 13px;}
+
+.contact_form input[type="submit"] {padding: 7px 35px;    font-size: 14px;width: 100%;}
+.contact-info .title { padding-bottom: 5px;  text-align: center;}
+.ourteamtedablog h2 { font-size: 18px;}
+.mervelblock_wrp ul {padding: 0;  margin: 0 auto 0; float: none; width: 100%; max-width: 290px;}
+.mervelblock_wrp ul li {margin-bottom:15px;}
+.mervelblock_wrp ul li a h3 { font-size: 15px;}
+
+
+.fancybox-slide > div.twoboxPop { max-width: 340px;}
+.teamdeatilbox {text-align: center;}
+.teamdeatilbox img { max-height: 113px;margin: 0 auto 15px; display: block;}
+
+
+.col-sm-offset-4.col-sm-offset-none-4{margin:0;}
+
+.profile-body p {  font-size: 13px;    word-wrap: break-word;}
+.profile-sidebar-wrp ul li a {padding: 6px 8px; font-size:13px;}
+
+.tb-title{
+	display: block;
+    float: left;
+    width: 41%;
+    padding: 6px;
+    background: #e0af27;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.tb-content{
+	display: block;
+    float: right;
+    width: 59%;
+    padding: 6px;
+}
+.profile-teammember tr th{display:none;}
+.profile-teammember table, .profile-teammember table tr, .profile-teammember table tr td{display:block; float:left; width:100%; padding: 0 !important; position:relative;}
+}
+@media (min-width:0px) and (max-width:575px){
+.col-sm-offset-4.col-xs-offset-none-4{margin:0;}
+
+
+
+}
+@media (min-width:576px) and (max-width:767px){
+
+
+.col-sm-offset-4 {  margin-left: 25%;}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+.topnav {  height: 69px;}
+.navlist li {  margin: 0 8px;}
+div#logo:before { border-width: 78px 0px 0px 28px;}
+div#logo:after {  border-width: 0px 0 78px 28px;}
+#logo { width: 113px;}
+.menuslhowbtn{display:block;}
+.rightsidemenu ul { background: #000; padding: 0; }
+.rightsidemenu ul li a {  color: #fff;}
+.rightsidemenu ul li:nth-child(1){border-top:1px solid #fff;}
+.rightsidemenu ul li{border-bottom:1px solid #fff; padding:2px 15px; border-left:1px solid #fff;}
+.rightsidemenu {  right: -148px; transition:all 0.5s ease-in-out;}
+.bnavlist li { font-size: 9px;}
+.bottomnav {/* transform: translate(31%,0); */}
+.topnav .navlist a { font-size: 8px;}
+.topnav ul {width: 38%;}
+#logo {/* left: 41%; */}
+.ourtem_heding h2 {font-size: 30px;}
+.about_text_wrp { padding: 0;  font-size: 15px;}
+
+.icons {right: 0; padding-bottom: 0.5%; margin-right: 5px;  z-index: 5;width: 150px;   margin: 0;}
+.notificationwrp { left: 20px;}
+ul.bnavlist {  padding: 0;}
+
+.contact-info { padding: 25px 0;}
+.contact-info .title h3 { font-size: 18px;}
+.contact-info .contact-address li { font-size: 14px;}
+.contact_form h2 { font-size: 18px;}
+.requird_form_contect label{    font-size: 13px;}
+
+
+
+.fancybox-slide > div.twoboxPop { max-width: 530px;}
+.mervelblock_wrp ul li a h3 {font-size: 15px;}
+
+
+
+
+
+
+
+}
+@media (min-width:992px) and (max-width:1199px){
+
+.topnav {  height: 69px;}
+.navlist li {  margin: 0 23px;}
+div#logo:before { border-width: 78px 0px 0px 28px;}
+div#logo:after {  border-width: 0px 0 78px 28px;}
+#logo { width: 113px;}
+.menuslhowbtn{display:block;}
+.rightsidemenu ul { background: #000; padding: 0; }
+.rightsidemenu ul li a {  color: #fff;}
+.rightsidemenu ul li:nth-child(1){border-top:1px solid #fff;}
+.rightsidemenu ul li{border-bottom:1px solid #fff; padding:2px 15px; border-left:1px solid #fff;}
+.rightsidemenu {  right: -148px; transition:all 0.5s ease-in-out;}
+.bnavlist li { font-size: 0.8vw;}
+.bottomnav { transform: translate(31%,0);}
+
+
+}

@@ -1,0 +1,195 @@
+/* Ticker Styling */
+@-webkit-keyframes color_change {
+	from { color:white; }
+	to {color: black; }
+}
+@-moz-keyframes color_change {
+	from { color:white; }
+	to {color: black; }
+}
+@-ms-keyframes color_change {
+	from { color:white; }
+	to {color: black; }
+}
+@-o-keyframes color_change {
+	from { color:white; }
+	to {color: black; }
+}
+@keyframes color_change {
+	from { color:white; }
+	to {color: black; }
+}	
+.ticker-wrapper.has-js {
+	margin: 20px 0px 20px 0px;
+	padding: 0px 20px;
+	width: 400%;
+	height: 32px;
+	display: block;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: none;
+	font-size: 0.75em;
+}
+.ticker {
+	width: 95%;
+	height: 40px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background-color: none;
+}
+.ticker-title {
+	padding-top: 9px;
+    color: #FFFFFF;
+	font-weight: bold;
+	background-color: #6e6077;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-transform: uppercase;
+    font-size: 1.1vw;
+    padding: 5px;
+}
+.ticker-title span{
+	animation-name: color_change;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.ticker-content {
+	margin: 0px;
+	padding-top: 9px;
+	position: absolute;
+    color: #FFFFFF;
+	font-weight: bold;
+	background-color: none;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 1.2em;
+    font-size: 1.0vw;
+}
+.ticker-content:focus {
+	none;
+}
+.ticker-content a {
+	text-decoration: none;	
+	color: #FFFFFF;
+}
+.ticker-content a:hover {
+	text-decoration: underline;	
+    color: #FFFFFF;
+}
+.ticker-swipe {
+	padding-top: 9px;
+	position: absolute;
+	top: 0px;
+	background-color: none;
+	display: block;
+	width: 100%;
+	height: 23px; 
+}
+.ticker-swipe span {
+	margin-left: 1px;
+	background-color: none;
+	border-bottom: 1px solid #1F527B;
+	height: 12px;
+	width: 7px;
+	display: block;
+}
+.ticker-controls {
+	padding: 8px 0px 0px 0px;
+	list-style-type: none;
+	float: left;
+}
+.ticker-controls li {
+	padding: 0px;
+	margin-left: 5px;
+	float: left;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+.ticker-controls li.jnt-play-pause {
+	background-image: url('/web/20170608170031im_/http://techfest.org/images/controls.png');
+	background-position: 32px 16px;
+}
+.ticker-controls li.jnt-play-pause.over {
+	background-position: 32px 32px;
+}
+.ticker-controls li.jnt-play-pause.down {
+	background-position: 32px 0px;
+}
+.ticker-controls li.jnt-play-pause.paused {
+	background-image: url('/web/20170608170031im_/http://techfest.org/images/controls.png');	
+	background-position: 48px 16px;
+}
+.ticker-controls li.jnt-play-pause.paused.over {
+	background-position: 48px 32px;
+}
+.ticker-controls li.jnt-play-pause.paused.down {
+	background-position: 48px 0px;
+}
+.ticker-controls li.jnt-prev {
+	background-image: url('/web/20170608170031im_/http://techfest.org/images/controls.png');
+	background-position: 0px 16px;		
+}
+.ticker-controls li.jnt-prev.over {
+	background-position: 0px 32px;		
+}
+.ticker-controls li.jnt-prev.down {
+	background-position: 0px 0px;		
+}
+.ticker-controls li.jnt-next {
+	background-image: url('/web/20170608170031im_/http://techfest.org/images/controls.png');	
+	background-position: 16px 16px;	
+}
+.ticker-controls li.jnt-next.over {
+	background-position: 16px 32px;	
+}
+.ticker-controls li.jnt-next.down {	
+	background-position: 16px 0px;	
+}
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0px 0px 45px; 
+    color: #FFFFFF;
+}
+.left .ticker-swipe {
+	/*left: 80px;*/
+}
+.left .ticker-controls, .left .ticker-content, .left .ticker-title, .left .ticker {
+    float: left;
+}
+.left .ticker-controls {
+    padding-left: 6px;
+}
+.right .ticker-swipe {
+	/*right: 80px;*/
+}
+.right .ticker-controls, .right .ticker-content, .right .ticker-title, .right .ticker {
+    float: right;
+}
+.right .ticker-controls {
+    padding-right: 6px;
+}
+
+@media(max-width: 465px){
+    .ticker-title {
+        font-size: 2vw;
+    }
+    .ticker-content {
+        font-size: 2vw;
+    }
+
+}
+/*
+     FILE ARCHIVED ON 17:00:31 Jun 08, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:33:49 Oct 10, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
